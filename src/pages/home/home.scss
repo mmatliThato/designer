@@ -1,0 +1,209 @@
+page-home {
+    
+        
+
+    
+    .flexbox-container{
+        display: flex;
+       justify-content: space-around;
+        flex-direction: row;
+     
+     
+        
+       
+    }
+    .flexbox-container1{
+        display: flex;
+        flex-direction: column;
+        background-image: url('../../assets/imgs/thR2TWG0JP.jpg');
+        background-size:cover;
+        justify-content: center;
+       
+        
+       
+    }
+    .flexbox-item{
+        width: 330%;
+        margin: 10px;
+        border:3px solid white;
+        background-color: white ;
+    }
+    .flexbox-item1{
+        width: 50px;
+        height:  50px;
+    }
+    .flexbox-item2{
+        width: 50px;
+        height:  50px;
+    }
+    .flexbox-item2{
+        width: 50px;
+        height:  50px;
+    }
+    .flexbox-item3{
+        width: 50%;
+        height:  100px;
+        background-image: url("../../assets/imgs/images.jpg");
+        background-size:cover;
+        border-radius: 13px;
+    }
+    .flexbox-item4{
+        width: 50%;
+        height:  100px;
+        background-image: url("../../assets/imgs/a2694d3a-8cb7-468f-98e5-c135b6726faa.jpg");
+        background-size:cover;
+        border-radius: 13px;
+    }
+    .flexbox-item5{
+        width: 50px;
+        height:  50px;
+        flex-direction: column;
+        display: flex;
+    }
+    .flexbox-item6{
+        width: 50px;
+        height:  50px; 
+        flex-direction: column;
+    }
+    .flexbox-item7{
+        width: 100%;
+        height:  50px;
+        display: flex; 
+    }
+    
+    
+    .flexbox-item8{
+        width: 100%;
+        height:  50px; 
+        flex-direction: column;
+        display: flex;
+    }
+    .flexbox-item9{
+        width: 100%;
+        height:  50px; 
+        flex-direction: column;
+        display: flex;
+    }
+    .flexbox-item10{
+        width: 100%;
+        height:  50px;
+        flex-direction: column; 
+        display: flex;
+    }
+    .flexbox-item11{
+        width: 100%;
+        height:  50px; 
+        flex-direction: column;
+        display: flex;
+
+     
+
+    
+    
+    
+ion-icon{
+       color: gray;     
+        }     
+      
+    
+
+ 
+
+
+ 
+
+ }
+ ion-content{
+     background-image: url('../../assets/imgs/sl-white-ceramic-floor-6015651.jpg');
+    justify-content: center;
+     height: 100vh;
+ }
+ h1{
+     color: white;
+     text-align: center;
+     margin: 2px auto;
+ }
+ h6{
+    color: white;
+    text-align: center;
+    margin: 2px auto;  
+ }
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.details > * {
+    margin: 1em;
+  
+   
+     
+}
+ 
+ .button1{
+left:55%;
+margin-right: -4px;
+
+.buttons{
+    float: left;
+
+}
+
+.Upcoming{
+    display: flex;
+ 
+  
+   
+
+}
+
+ }
+ .hour{
+   justify-content: center;
+ }
+ .arrow{
+     justify-content: space-between;
+     font-size: 200%;
+     color:grey;
+ 
+ }
+ 
+        
+        
+      
+        .list{
+            width: 96%;
+            margin: auto;
+            height: 60px;
+            background:white;
+            margin: 10px;
+            display: flex;
+           
+            box-shadow: 0px 0px 10px #17171746;
+            .line{
+                width: 10px;
+                height: 100%;
+                position: relative;
+                
+                .h{
+                    width: 2px;
+                    height: 110%;
+                    background: rgb(204, 0, 255);
+                    margin: auto;
+                }
+                .dot{
+                    width: 15px;
+                    height: 15px;
+                    background: rgb(183, 0, 255);
+                    border: solid 2px rgb(255, 255, 255);
+                    position: absolute;
+                    top: 35%;
+                    left: -35%;
+                    border-radius: 200px;
+                    
+                }
+            }
+        }
+}

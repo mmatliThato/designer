@@ -1,0 +1,101 @@
+ <ion-header>
+
+   
+   <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>Risum</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="radio-button-off"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-toolbar> 
+</ion-header> 
+
+
+
+
+
+
+<ion-content >
+  <div class="Upcoming">
+    <h3>Upcoming</h3>
+  </div>
+  
+  <div class="flexbox-container">
+    <div class="flexbox-item flexbox-item3">
+       
+        <div id="buttons">
+             <button ion-button small color="danger" class="button1">0</button>
+        <button ion-button small color="danger" class="button1">2</button> 
+          </div>
+        <h1>15:35</h1>
+        <h6>Tabata Abs</h6>
+    </div>
+    <div class="flexbox-item flexbox-item4">
+        <button ion-button small color="secondary" class="button1">1</button>
+        <button ion-button small color="secondary" class="button1">5</button>
+        <h1>17:50</h1>
+        <h6>Grilled chicken</h6>
+    </div>
+   
+
+
+  </div>
+  <div>
+  <h3>Today's Focus</h3>
+
+  </div>
+ 
+  <div *ngFor="let d of details" class="list" >
+     
+    <div class="line">
+      <div class="h"></div>
+      <div class="dot"></div>
+    </div>
+    
+     
+
+
+
+
+             
+       
+   
+
+      
+      <ion-item detail-push>
+         <div class="details" >
+           <div class="time"> <h2 class="time">{{d.time}}</h2> </div>
+           
+
+           
+            <div class="hourstext">
+               
+               <h2 class="text">{{d.text}}</h2>
+              <p class="hours">{{d.hours}}</p>
+            
+            </div>
+
+         
+         </div>
+         
+          
+        </ion-item>
+   
+
+       
+        
+  </div>
+  
+  
+   
+    
+</ion-content>
